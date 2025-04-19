@@ -5,124 +5,163 @@
     <link rel="icon" type="image/svg+xml" href="/team-118-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script type="module" crossorigin src="/team-118-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-118-project/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/team-118-project/assets/index-B3HxNbgb.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
+  <div class="container header-container">
     <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/team-118-project/assets/sprite-E8vg0sBb.svg#logo"></use>
+      <a class="logo" href="./index.html">
+        <svg width="40" height="36">
+          <use href="/team-118-project/assets/icons-i5_97lgq.svg#icon-logo"></use>
         </svg>
-      </a>
+        Product</a
+      >
       <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+        <li><a class="nav-link current" href="">Product</a></li>
+        <li><a class="nav-link" href="./customers.html">Customers</a></li>
+        <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+        <li><a class="nav-link" href="">Resources</a></li>
       </ul>
     </nav>
+    <ul class="header-list-btn">
+      <li>
+        <button class="header-btn header-btn-in" type="button">Sign In</button>
+      </li>
+      <li>
+        <button class="header-btn header-btn-up" type="button">Sign Up</button>
+      </li>
+    </ul>
   </div>
 </header>
 
 
     <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+      <section class="hero">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/team-118-project/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
+    <div class="hero-text-wrap">
+      <h1 class="hero-title">Work at the speed of thought</h1>
+      <p class="hero-text">
+        Tools, tutorials, design and innovation experts, all in one place! The
+        most intuitive way to imagine your next user experience.
+      </p>
+      <ul class="hero-list">
+        <li>
+          <button class="hero-btn-start" type="button">Get started</button>
+        </li>
+        <li>
+          <button class="hero-btn-watch" type="button">
+            <svg width="16" height="18" class="hero-btn-icon">
+              <use href="/team-118-project/assets/icons-i5_97lgq.svg#icon-arow"></use>
+            </svg>
+            Watch the Video
+          </button>
+        </li>
+      </ul>
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+    <img src="/team-118-project/assets/hero-img-min-BcFRhO6x.png" alt="people" width="610" />
   </div>
 </section>
 
-      <article class="badges">
+      <section class="product">
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <h2 class="product-title">Product was Built Specifically for You</h2>
+    <ul class="product-list">
+      <li class="product-item">
+        <div class="product-icon-wrap">
+          <svg class="product-icon" width="11" height="18">
+            <use href="/team-118-project/assets/icons-i5_97lgq.svg#icon-click"></use>
+          </svg>
+        </div>
+        <h3 class="product-subtitle">First click tests</h3>
+        <p class="product-text">While most people enjoy casino gambling,</p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="product-item">
+        <div class="product-icon-wrap product-icon-wrap-second">
+          <svg class="product-icon" width="18" height="18">
+            <use href="/team-118-project/assets/icons-i5_97lgq.svg#icon-line"></use>
+          </svg>
+        </div>
+        <h3 class="product-subtitle">Design surveys</h3>
+        <p class="product-text">
+          Sports betting, lottery and bingo playing for the fun
+        </p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="product-item">
+        <div class="product-icon-wrap product-icon-wrap-third">
+          <svg class="product-icon" width="16" height="18">
+            <use href="/team-118-project/assets/icons-i5_97lgq.svg#icon-heart"></use>
+          </svg>
+        </div>
+        <h3 class="product-subtitle">Preference tests</h3>
+        <p class="product-text">The Myspace page defines the individual.</p>
+      </li>
+      <li class="product-item">
+        <div class="product-icon-wrap product-icon-wrap-four">
+          <svg class="product-icon" width="14" height="18">
+            <use href="/team-118-project/assets/icons-i5_97lgq.svg#icon-clock"></use>
+          </svg>
+        </div>
+        <h3 class="product-subtitle">Five second tests</h3>
+        <p class="product-text">
+          Personal choices and the overall personality of the person.
+        </p>
       </li>
     </ul>
+    <button class="product-btn" type="button">SIGN UP NOW</button>
   </div>
-</article>
+</section>
+
+      <section class="management">
+  <div class="container">
+    <div class="managment-text-wrap">
+      <h2 class="management-title">
+        <span class="management-title-part">Effortless Validatio</span>
+        Management
+      </h2>
+      <p class="management-text">
+        The Myspace page defines the individual, his or her characteristics,
+        traits, personal choices and the overall personality of the person.
+      </p>
+      <ul class="management-list">
+        <li>
+          <h3 class="management-subtitle">Accessory makers</h3>
+          <p class="management-desc">
+            While most people enjoy casino gambling, sports betting, lottery and
+            bingo playing for the fun
+          </p>
+        </li>
+        <li>
+          <h3 class="management-subtitle">Alterationists</h3>
+          <p class="management-desc">
+            If you are looking for a new way to promote your business that won’t
+            cost you more money,
+          </p>
+        </li>
+      </ul>
+    </div>
+    <img src="/team-118-project/assets/management-img-CtZgabOZ.png" alt="document" width="540" />
+  </div>
+</section>
 
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
