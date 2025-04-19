@@ -1,0 +1,58 @@
+<section class="hero">
+  <div class="container hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">Work at the speed of thought</h1>
+      <p class="hero-description">
+        Tools, tutorials, design and innovation experts, all in one place! The
+        most intuitive way to imagine your next user experience.
+      </p>
+      <ul class="hero-buttons">
+        <li>
+          <button type="button" class="get-started">Get started</button>
+        </li>
+        <li>
+          <button type="button" class="watch-the-video">
+            <svg class="play" width="20" height="18">
+              <use href="./images/fill_none_icons.svg#icon-triangle"></use>
+            </svg>
+
+            Watch the Video
+          </button>
+        </li>
+      </ul>
+    </div>
+    <picture class="hero-page">
+      <source
+        media="(min-width: 1150px)"
+        srcset="
+          images/section/hero-img.png      1x,
+          ./images/section/hero-img@2x.png 2x
+        "
+        type="image/jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          images/section/hero-img.png      1x,
+          ./images/section/hero-img@2x.png 2x
+        "
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./images/section/section_mob/hero-img.png    1x,
+          ./images/section/section_mob/hero-img@2x.png 2x
+        "
+        type="image/jpg"
+      />
+      <img
+        class="card-img"
+        src="./images/section/hero-img.png"
+        alt="Banking App"
+        width="610"
+        loading="lazy"
+      />
+    </picture>
+  </div>
+</section>

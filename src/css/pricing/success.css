@@ -1,0 +1,76 @@
+/* success */
+.success-sec {
+    padding: 50px 0;
+}
+
+.container-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-title {
+    width: 342px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.amica-page {
+    max-width: 352px;
+    max-height: 392px;
+    width: 100%;
+    height: auto;
+}
+
+.container-content {
+    max-width: 302px;
+}
+
+.succes-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F4F5F7;
+    border-radius: 50%;
+}
+
+.name-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.box-title {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #22343d;
+}
+
+.box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343d;
+    margin-bottom: 32px;
+}

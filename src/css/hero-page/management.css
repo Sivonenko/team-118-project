@@ -1,0 +1,50 @@
+/* management */
+.management {
+    padding: 50px 0;
+}
+
+.management-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.management-container .conten-box {
+    margin-top: 50px;
+    max-width: 334px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 16px;
+}
+
+.sp-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+
+
+.accesory-content {
+    margin-top: 16px;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    margin-bottom: 12px;
+}
+
+.alterationists {
+    margin-top: 16px;
+}
+
+.left {
+    text-align: left;
+}

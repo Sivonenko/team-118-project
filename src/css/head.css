@@ -1,0 +1,136 @@
+/* header */
+.header {
+    background: #fff;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 93%;
+    color: #173a56;
+    padding: 24px 0;
+}
+
+.navigation {
+    display: none;
+}
+
+.burger-box {
+    display: block;
+
+}
+
+.btn-burger {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 8px;
+}
+
+@media screen and (min-width: 1150px) {
+
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 93%;
+        color: #173a56;
+        padding: 24px 0;
+    }
+
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 74px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-list {
+        display: flex;
+        gap: 30px;
+        padding: 26px 0;
+    }
+
+    .navbar-item a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #22343d;
+    }
+
+    .navbar-item a:hover {
+        color: #02897a;
+        text-decoration: underline;
+    }
+
+    .sign {
+        display: flex;
+        gap: 22px;
+        padding: 18px 0;
+    }
+
+    .sign-in {
+        border: 1px solid #bcd0e5;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #173a56;
+        padding: 8px 24px;
+    }
+
+    .sign-up {
+        border-radius: 4px;
+        background: #02897a;
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        padding: 8px 24px;
+        border: none;
+    }
+
+    .burger-box {
+        display: none;
+    }
+}

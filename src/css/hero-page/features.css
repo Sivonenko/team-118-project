@@ -1,0 +1,99 @@
+/* feature */
+.features {
+    padding: 50px 0;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+
+}
+
+.icon-svg {
+    width: 54px;
+    height: 54px;
+    border: none;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor {
+    background-color: #02897A;
+}
+
+.vive-line {
+    background-color: #4D8DFF;
+}
+
+.hard {
+    background-color: #740A76;
+}
+
+.oclock {
+    background-color: #F03E3D;
+}
+
+.icon-3 {
+    fill: #fff;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 50px 0;
+}
+
+.features-item {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.ffeatures-item-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.sigb-up-now {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    background: #02897a;
+    border: none;
+    padding: 14px 32px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.sigb-up-now:hover,
+.sigb-up-now:focus {
+    color: #03b6a1b5;
+    background-color: #0c5a45;
+}

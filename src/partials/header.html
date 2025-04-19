@@ -1,26 +1,49 @@
+<!-- header -->
 <header class="header">
   <div class="container header-container">
-    <nav class="nav">
-      <a class="logo" href="./index.html">
-        <svg width="40" height="36">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-        Product</a
+    <div class="logo-box">
+      <a href="./index.html" class="logo"
+        ><span class="span-logo"
+          ><svg class="logo-svg" width="40" height="36">
+            <use href="images/color_icons.svg#icon-logo"></use></svg></span
+        >Product</a
       >
-      <ul class="nav-list">
-        <li><a class="nav-link current" href="">Product</a></li>
-        <li><a class="nav-link" href="./customers.html">Customers</a></li>
-        <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
-        <li><a class="nav-link" href="">Resources</a></li>
+    </div>
+
+    <div class="navigation">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="./index.html">Product</a></li>
+          <li class="navbar-item">
+            <a href="./pricing.html">Pricing</a>
+          </li>
+          <li class="navbar-item">
+            <a href="./customers.html">Customers</a>
+          </li>
+          <li class="navbar-item"><a href="#">Resources</a></li>
+        </ul>
+      </nav>
+
+      <ul class="sign">
+        <li>
+          <button type="button" class="sign-in" data-sing_in-open>
+            Sign In
+          </button>
+        </li>
+        <li>
+          <button type="button" class="sign-up" data-sing_up-open>
+            Sign Uo
+          </button>
+        </li>
       </ul>
-    </nav>
-    <ul class="header-list-btn">
-      <li>
-        <button class="header-btn header-btn-in" type="button">Sign In</button>
-      </li>
-      <li>
-        <button class="header-btn header-btn-up" type="button">Sign Up</button>
-      </li>
-    </ul>
+    </div>
+    <div class="burger-box">
+      <button class="btn-burger" type="button" data-menu-open>
+        <svg class="burger" width="24" height="24">
+          <use href="./images/fill_none_icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>
+<!-- header -->

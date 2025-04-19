@@ -1,0 +1,43 @@
+<section class="promo">
+  <div class="container promo-container">
+    <div class="promo-content">
+      <h2 class="promo-title">
+        Join 100 Compannies who boost their business with Product
+      </h2>
+      <button type="button" class="promo-btn">Get This</button>
+    </div>
+    <picture class="promo-page">
+      <source
+        media="(min-width: 1150px)"
+        srcset="
+          images/section/graphics.png      1x,
+          ./images/section/graphics@2x.png 2x
+        "
+        type="image/jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          images/section/graphics.png      1x,
+          ./images/section/graphics@2x.png 2x
+        "
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./images/section/section_mob/graphics.png    1x,
+          ./images/section/section_mob/graphics@2x.png 2x
+        "
+        type="image/jpg"
+      />
+      <img
+        class="card-img"
+        src="./images/section/graphics.png"
+        alt="Banking App"
+        width="351"
+        loading="lazy"
+      />
+    </picture>
+  </div>
+</section>

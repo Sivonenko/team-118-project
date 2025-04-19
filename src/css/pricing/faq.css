@@ -1,0 +1,36 @@
+/* faq */
+
+
+
+
+
+.faq {
+    margin-bottom: 150px;
+}
+
+
+.faq-title {
+    display: block;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+.faq-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.containet-faq {
+    margin: 0 auto;
+    max-width: 910px;
+}
+
+
+/* faq */

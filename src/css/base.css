@@ -1,4 +1,65 @@
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
     color: #22343d;
+    height: 100vh;
+    max-width: 100%;
+}
+
+/* ================== */
+.index-section-page {
+    max-width: 349px;
+    width: 100%;
+    height: auto;
+}
+
+/* details */
+summary {
+    font-weight: 500;
+    font-size: 18px;
+    color: #22343d;
+    cursor: pointer;
+    list-style: none;
+    /* Прибирає стандартний трикутник */
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.sumopen {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+
+}
+
+summary::before {
+    content: "+";
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #02897A;
+
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    line-height: 24px;
+
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+details[open] summary::before {
+    content: "-";
 }

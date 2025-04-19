@@ -1,0 +1,65 @@
+/* group */
+
+
+.group {
+    padding-top: 100px;
+}
+
+.group-list {
+    width: 100%;
+    margin: 72px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.group-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-syep-box {
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.ctep-contant {
+    max-width: 355px;
+}
+
+.step-title {
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #22343d;
+    margin-bottom: 16px;
+}
+
+.step {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #22343d;
+    margin-bottom: 16px;
+}
+
+.step-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343d;
+}
+
+.reverse {
+    flex-direction: column-reverse;
+}
+
+.group-container button {
+    display: none;
+}

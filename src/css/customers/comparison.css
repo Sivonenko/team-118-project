@@ -1,0 +1,96 @@
+.comparison {
+    padding: 30px;
+}
+
+.comparison-title {
+    width: 321px;
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.comparison-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comparison-container {
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+
+.container-busennes,
+.container-enterprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ================================*/
+.container-busennes-icon-activity {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffefef;
+    border-radius: 50%;
+    margin-bottom: 26px;
+}
+
+.activity {
+    width: 61px;
+    height: 61px;
+}
+
+.container-busennes-icon-chat {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f6ff;
+    border-radius: 50%;
+    margin-bottom: 26px;
+}
+
+.chat {
+    width: 61px;
+    height: 61px;
+}
+
+
+/* ================================*/
+.busieness-icon,
+.enterprise-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 72px;
+}
+
+.comparison-container-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 117%;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.comparison-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    text-align: center;
+    color: #22343d;
+}
+
+.comparison-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #000;
+}

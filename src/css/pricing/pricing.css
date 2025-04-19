@@ -1,0 +1,11 @@
+/* pricing */
+.pric {
+    margin-bottom: 150px;
+}
+
+.pricing-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    margin-bottom: 32px;
+}

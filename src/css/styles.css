@@ -6,13 +6,29 @@
 */
 /* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
+@import url('./base.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./product.css');
-@import url('./managment.css');
+@import url('./head.css');
+@import url('./hero-page/hero.css');
+@import url('./hero-page/features.css');
+@import url('./hero-page/management.css');
+@import url('./hero-page/staff.css');
+@import url('./hero-page/support.css');
+@import url('./hero-page/news.css');
+@import url('./hero-page/pricing.css');
+@import url('./hero-page/feedback.css');
+@import url('./customers/ourclients.css');
+@import url('./customers/costomersfeatures.css');
+@import url('./customers/group.css');
+@import url('./customers/comparison.css');
+@import url('./pricing/pricing.css');
+@import url('./pricing/enterprise.css');
+@import url('./pricing/success.css');
+@import url('./pricing/faq.css');
+@import url('./promo.css');
 @import url('./footer.css');
+@import url('./mob.css');
+@import url('./modal.css');
+@import url('./desc.css');

@@ -1,0 +1,39 @@
+/* anterprise */
+.enterprise {
+    padding: 46px 0;
+    background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
+
+
+.enterprise-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enterprise-subtitle {
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    margin-bottom: 24px;
+}
+
+.enterprise-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+    width: 325px;
+    margin-bottom: 24px;
+}
+
+.enterprise-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    text-align: center;
+    width: 318px;
+    margin-bottom: 32px;
+}
