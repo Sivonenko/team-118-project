@@ -1,0 +1,50 @@
+.management {
+    padding: 50px 0;
+}
+
+.management .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.managment-text-wrap {
+    max-width: 486px;
+}
+
+.management-title {
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.management-title-part {
+    font-weight: 600;
+    font-size: 16px;
+    /* display: block;
+    margin-bottom: 8px; */
+}
+
+.management-text {
+    line-height: 1.63;
+    margin-bottom: 30px;
+}
+
+.management-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.management-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 12px;
+}
+
+.management-desc {
+    line-height: 1.625;
+}

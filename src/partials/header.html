@@ -1,19 +1,26 @@
 <header class="header">
-  <div class="container">
+  <div class="container header-container">
     <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
+      <a class="logo" href="./index.html">
+        <svg width="40" height="36">
+          <use href="./images/icons.svg#icon-logo"></use>
         </svg>
-      </a>
+        Product</a
+      >
       <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+        <li><a class="nav-link current" href="">Product</a></li>
+        <li><a class="nav-link" href="./customers.html">Customers</a></li>
+        <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+        <li><a class="nav-link" href="">Resources</a></li>
       </ul>
     </nav>
+    <ul class="header-list-btn">
+      <li>
+        <button class="header-btn header-btn-in" type="button">Sign In</button>
+      </li>
+      <li>
+        <button class="header-btn header-btn-up" type="button">Sign Up</button>
+      </li>
+    </ul>
   </div>
 </header>
