@@ -1,0 +1,142 @@
+/* Price */
+
+.price {
+    padding: 30px 0 50px;
+}
+
+.price .container {
+    max-width: 322px;
+}
+
+.price-title {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.price-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.price-item {
+    padding: 24px 0 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-item:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.price-item:hover,
+.price-item:focus {
+    background-color: #02897a;
+    color: #fff;
+}
+
+/* .price-amount:hover,
+.price-amount:focus,
+.currency:hover,
+.currency:focus */
+
+/* btn:hover */
+/* part-text:hover */
+
+.price-item-title {
+    font-size: 24px;
+    line-height: 1.67;
+    margin-bottom: 8px;
+}
+
+.price-item-text {
+    font-size: 16px;
+    line-height: 2.5;
+    margin-bottom: 16px;
+}
+
+.price-propose {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 154px;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+.price-amount {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.price-detail-part {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+}
+
+.currency {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.per-month {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.per-month:hover,
+.per-month:focus {
+    color: #e0e0e0;
+}
+
+.price-details-item-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.37;
+    letter-spacing: 0.01em;
+}
+
+.price-details-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.price-details-list {
+    margin-bottom: 38px;
+}
+
+.price-btn {
+    border-radius: 8px;
+    min-width: 139px;
+    height: 44px;
+    background-color: #02897a;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.price-btn:hover,
+.price-btn:focus {
+    background-color: #fff;
+    color: #02897a;
+}
